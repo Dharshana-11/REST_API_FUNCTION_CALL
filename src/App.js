@@ -1,7 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import Rest from "./Rest";
 // import SessionStorage from "./SessionStorage";
-import Storage from "./Storage";
+// import Storage from "./Storage";
 // import Form from "./form";
 // import "./form.css";
 // import Login from "./Login";
@@ -15,8 +16,9 @@ function App() {
       {/* <LocalStorage /> */}
       {/* <Form /> */}
       {/* <LocalStorage /> */}
-      <Storage />
+      {/* <Storage /> */}
       {/* <SessionStorage /> */}
+      <Rest />
     </div>
   );
 }
