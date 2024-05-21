@@ -1,0 +1,116 @@
+body
+{
+  text-align:center;
+  background-color:black;
+  background-image: url("https://wallpapers.com/images/hd/dark-purple-aesthetic-pictures-a7n8iwnaq3mjrta7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height:100vh; 
+  width:100vh;
+  display:flex; 
+  align-items: center;
+  justify-content: center;
+}
+fieldset{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  border:none;
+  height:350px;
+  width:250px;
+  background-color: rgba(46, 29, 74, 0.5);
+  border-radius: 10px;
+  border: none;
+}
+input
+  {
+    height:25px;
+    width:200px;
+    border:none;
+    border-radius:5px;
+  }
+.login_button{
+  padding:2px 2px;
+  height:40px;
+  width:65px;
+}
+.forget_p{
+  font-size:13px;
+  color:lavender;
+  text-decoration: underline;
+  font-weight:normal;
+}
+img{
+  opacity:0.9;
+  padding-top:20px;
+}
+
+@media screen  and (max-width:349px)
+{
+  body{
+    width:100%
+  }
+  fieldset{
+    height:300px;
+    width:150px;
+  }
+
+}
+
+@media screen and (min-width: 350px)  and (max-width:400px)
+{
+  body{
+    width:100%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width:900px)
+{
+  body{
+      width:100%;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width:1600px)
+  {
+    body{
+        width:100%;
+      }
+    }
+
+@media screen and (min-width: 1600px) and (max-width:4000px)
+  {
+    body{
+        width:100%;
+      }
+    fieldset{
+        height:800px;
+        width:550px;
+      }
+    input {
+        height: 50px; 
+        width: 450px; 
+        margin: 10px 0; 
+        font-size:30px;
+        border-radius:15px;
+      }
+  
+    .login_button {
+        height: 80px; 
+        width: 100px; 
+        font-size: 30px; 
+      }
+    img{
+        height:200px;
+        width:200px;
+        padding-top: 10px;
+      }
+      .forget_p{
+        font-size:25px;
+        color:lavender;
+      }
+      }
+    
