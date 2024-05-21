@@ -22,7 +22,6 @@ const Rest = () => {
                 set_loading(false) //loading is set to false as there is an error
             })
         };
-            console.log("datadata",data);
     useEffect(()=>
         {fetch_url()},[]) //dependency array that ensures that useEffect code runs only once
     
